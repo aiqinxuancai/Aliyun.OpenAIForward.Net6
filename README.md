@@ -5,7 +5,7 @@
 ## 快速部署
 
 ### 创建Web函数
-不要香港，要新加坡！
+**不要香港**，要新加坡或者其他被支持的海外区域。
 
 ![image](https://github.com/user-attachments/assets/e98b990a-80b4-4296-a9d0-bc85e29af603)
 
