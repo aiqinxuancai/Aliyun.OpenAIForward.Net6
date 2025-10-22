@@ -46,11 +46,9 @@ OPENROUTER_PROXY_URL=https://xxxxxxxx.ap-southeast-1.fcapp.run/openrouter/v1
 ```
 
 ## 自行设置转发目标
-在云函数中设置环境变量**ROUTE_MAPPING**，格式为json格式的key:value结构，key为链接中路径中的第1位，如上面的openrouter，value则为对应其实际URL。
+
+在云函数中设置环境变量 **ROUTE_MAPPING** 可自定义转发目标，key为链接中路径中的第1位，value则为转发URL，格式如下：
 
 ```json
 {"openrouter": "https://openrouter.ai/api/"}
 ```
-
-## 其他问题
-如果需要流式，可能需要
