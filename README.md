@@ -4,12 +4,12 @@
 
 ## 快速部署
 
-### 创建Web函数
+### 1.创建Web函数
 **不要香港**，要新加坡或者其他被支持的海外区域。
 
 ![image](https://github.com/user-attachments/assets/e98b990a-80b4-4296-a9d0-bc85e29af603)
 
-### 基础参数
+### 2.基础参数
 
 将本项目Release中的zip文件直接上传
 
@@ -19,7 +19,7 @@
 dotnet ./Aliyun.OpenAIForward.Net6.dll
 ```
 
-### 高级参数
+### 3.高级参数
 
 ![image](https://github.com/user-attachments/assets/60b42bfa-932f-4b8e-a88d-df3445c1e96a)
 
