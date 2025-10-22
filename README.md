@@ -29,10 +29,9 @@ dotnet ./Aliyun.OpenAIForward.Net6.dll
 https://xxxxxxxx.ap-southeast-1.fcapp.run
 
 
-
 ## 如何使用
 
-建议自己绑定域名使用，也可直接使用它所提供的公开触发器地址，但无法支持流式。
+**建议绑定自己域名，也可使用公开触发器自带的域名fcapp.run地址，但fcapp.run域名无法支持流式输出！**
 
 如在lobe中，你可以配置这样的代理，其他客户端中同理。
 
@@ -52,3 +51,6 @@ OPENROUTER_PROXY_URL=https://xxxxxxxx.ap-southeast-1.fcapp.run/openrouter/v1
 ```json
 {"openrouter": "https://openrouter.ai/api/"}
 ```
+
+## 其他问题
+如果需要流式，可能需要
